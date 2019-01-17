@@ -9,4 +9,4 @@ Made with the [Laravel](https://laravel.com/) framwork.
 
 Faudhen (Ferramenta Automatica de Decisão de Horario-Ensalamento) é uma website para o _timetabling_ dos professores da UFMS-CPAN. Seu sistema foi pensado para ser "preferência cêntrico" em relação aos professores
 
-Feito com o [framework](https://laravel.com/) Laravel.
+Feito com o framework [Laravel](https://laravel.com/) .
