@@ -2,4 +2,5 @@
 
 # faudhen 
 
-Faudhen is a "user preference-centric" timetabling website for the professor at UFMS-CPAN 
+Faudhen is a "user preference-centric" timetabling website for the professor at UFMS-CPAN.
+Made with the Laravel framwork.
