@@ -1,0 +1,276 @@
+
+body {
+	color: white;
+	background-color: #212121; 
+}
+
+.std-background {
+	/* 
+		66b8d4
+		3D8199
+		002F40
+		70bcd6 
+		065592
+		006655
+		555566
+		A12222
+		992211
+		style="background-color: #0088b7"
+	*/
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	background-image: url("../svg/background.svg");
+	fill-opacity: 0.5;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	-o-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size:cover;
+	
+}
+
+
+@media only screen and (max-width: 600px) {
+	.faudhen {
+		height: 0px;
+		display: none;
+	}
+
+	.faudhen-logo {
+		display: none;
+	}
+
+	.faudhen-name {
+		display: none;
+	}
+
+	.std-title {
+		width: 90vw;
+		color: white;
+		font-family: 'Lucida Console';
+		font-size: 3em;
+		margin-bottom: 30px;
+		border-bottom: 2px solid white;
+	}
+
+	.content-body-h{
+		width: 90%;
+	}
+
+	.content-body-f{
+		width: 90vw;
+	}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+	.faudhen {
+		margin: 0px 2vw 0px 0px;
+		padding: 0px 2vw 0px 0px;
+	}
+
+	.faudhen-logo {
+		height: 100px;
+	}
+
+	.faudhen-name {
+		display: none;
+	}
+
+	.std-title {
+		width: 45vw;
+		color: white;
+		font-family: 'Lucida Console';
+		font-size: 3em;
+		margin-bottom: 30px;
+		border-bottom: 2px solid white;
+	}
+
+	.content-body-h{
+		width: 45%;
+	}
+
+	.content-body-f{
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+
+	.faudhen {
+		margin: 0px 2vw 0px 25px;
+		padding: 0px 2vw 0px 15px;
+	}
+
+	.faudhen-logo {
+		height: 150px;
+	}
+	
+	.faudhen-name {
+		font-size: 1.1em;
+		font-family: 'Lucida Console';
+	}
+
+	.std-title {
+		width: 45%;
+		color: white;
+		font-family: 'Lucida Console';
+		font-size: 3em;
+		margin-bottom: 30px;
+		border-bottom: 2px solid white;
+	}
+
+	.content-body-h{
+		width: 45%;
+	}
+
+	.content-body-f{
+		width: 90%;
+	}
+}
+
+.c-link {
+	text-decoration: none;
+	margin: 10px 20px ;
+    padding: 5px 10px ;
+	color: #aaaaaa;
+	font-size: 1.15em;
+	
+}
+
+.c-link:hover, .c-link:focus, .c-link:active {
+	text-decoration: none; 
+	color: #666666;
+}
+
+.link-divider {
+	margin: none;
+	padding: none;
+	width: 0px;
+	height: 100%;
+	-webkit-box-shadow: 0px 0px 2px 1px white;
+    -moz-box-shadow: 0px 0px 2px 1px white; 
+    box-shadow: 0px 0px 2px 1px white; 
+	
+}
+
+.std-height{
+	height: 2500px;
+}
+
+.menu-std {
+	width: 100%;
+	display: block
+}
+
+.menu-alt {
+	margin: 3px 3px ;
+	padding: 3px 3px;
+	border-right: 1.5px solid #222;
+}
+
+.menu-ini {
+	width: 100%; 
+	padding: 15px;
+	position: sticky;
+}
+
+.btn-custom, button {
+
+	color: #aaaaaa;
+    margin: 10px 25px ;
+    padding: 5px 15px ;
+	letter-spacing: .1rem;
+	border: none;
+	border-radius: 0%;
+	border-bottom: 2px solid #aaaaaa;
+	font-size: 1.5em;
+	font-weight: 500;
+    font-family: 'Lucida Console';
+    text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	pointer-events: auto;
+}
+
+.btn-c-sm {
+	font-size: 1em;
+	border-bottom: 2px solid initial;
+}
+
+.btn-c-md {
+	font-size: 1.5em;
+	border-bottom: 2.5px solid initial;
+}
+
+.btn-c-lg {
+	font-size: 2em;
+	border-bottom: 3px solid initial; 
+}
+
+.btn-c-success{
+	border-color: #14470F;
+}
+
+.btn-c-alert{
+	border-color: #5E2621 ;
+}
+
+.btn-c-warning{
+	border-color: #D4AA00;
+}
+
+.btn-c-primary{
+	border-color: #0088B7;
+}
+
+.btn-custom:active , .btn-custom:focus , .btn-custom:hover {
+	cursor: pointer;
+	color: #666666;
+	outline: none;
+	text-decoration: none;
+}
+
+.std-style, .std-style:focus , .std-style:active , .std-style:hover {
+	border: 1.5px solid white;
+	border-radius: 0px;
+	background-color: transparent;
+	padding: 5px 10px;
+	margin: 5px 3px;
+	color: #aaa;
+}
+
+
+label {
+	color: white;
+}
+
+#back {
+	background: #555555ff;
+	left: 0px;
+	top: 120px;
+	margin: 0px;
+	position: fixed;
+	text-decoration: none;
+	font-size: 1.15em;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	z-index: 1;
+}
+
+#backtotop {
+	background: #555555ff;
+	left: 0px;
+	top: 160px;
+	margin: 0px;
+	position: fixed;
+	text-decoration: none;
+	font-size: 1.15em;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	z-index: 1;
+}
+
+

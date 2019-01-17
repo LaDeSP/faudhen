@@ -1,0 +1,30 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn-c-success{
+	border-color: $success;
+}
+
+.btn-c-alert{
+	border-color: $alert ;
+}
+
+.btn-c-warning{
+	border-color: $warning;
+}
+
+.btn-c-primary{
+	border-color: $primary;
+}
